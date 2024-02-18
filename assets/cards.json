@@ -1,0 +1,26 @@
+[
+    {
+        "imgSrc": "assets/img/card1.jpg",
+        "alt": "torresdelpaine",
+        "title": "Parque nacional Torres del Paine",
+        "text": "Descubre las imponentes Torres del Paine en el sur de Chile. Estas majestuosas formaciones rocosas ofrecen vistas espectaculares y aventuras inolvidables en medio de la salvaje belleza de la Patagonia."
+    },
+    {
+        "imgSrc": "assets/img/card2.jpg",
+        "alt": "desierto",
+        "title": "Desierto de Atacama",
+        "text": "Explora la asombrosa belleza del Desierto de Atacama en el norte de Chile. Con dunas, salares y volcanes, ofrece una experiencia única y sorprendente."
+    },
+    {
+        "imgSrc": "assets/img/card3.jpg",
+        "alt": "salar",
+        "title": "Salar de Atacama",
+        "text": "Descubre la belleza única del Salar de Atacama en el norte de Chile. Con sus vastas extensiones salinas y paisajes surrealistas, te ofrece una experiencia inolvidable en medio de la naturaleza más impresionante."
+    },
+    {
+        "imgSrc": "assets/img/card4.jpg",
+        "alt": "bosques",
+        "title": "Bosques hermosos",
+        "text": "Descubre la belleza única de los bosques de Chile. Desde la Patagonia hasta la Araucanía, te ofrecen una diversidad natural impresionante."
+    }
+]

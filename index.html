@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Viajes Chile">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&family=Caveat:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Viajes Chile</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span id="nav-mundo" class="align-middle brand-text-nav">
+                    <img id="logo-mundo" src="assets/img/viajes.svg" height="45px" alt="Logo" class="logoviajes"
+                        style="vertical-align: middle;">
+                    Viajes Chile
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse hamburguer-position" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ocultar-sm" href="#seccion-somos">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <article>
+        <section>
+            <div id="carouselExampleControls" class="carousel slide my-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/carousel1.jpg" class="d-block w-100 mycarousel-img" alt="img1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel2.jpg" class="d-block w-100 mycarousel-img" alt="img2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/carousel3.jpg" class="d-block w-100 mycarousel-img" alt="img3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </article>
+
+    <!-- Quienes Somos-->
+    <article>
+        <section>
+            <div id="seccion-somos" class="container ocultar-sm quienes-somos">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="centrado">Quienes Somos</h2>
+                        <hr>
+                    </div>
+                    <!-- cards -->
+                    <div class="col-4">
+                        <div class="card-body">
+                            <h5 id="avion" class="titulo bg-celeste centrado"><i class="fas fa-plane"></i></h5>
+                            <p id="pavion" class="card-text card-text_size">Explora el mundo con nuestra agencia de
+                                viajes. Con más de dos mil años de experiencia combinada, nuestro equipo te llevará a
+                                descubrir destinos increíbles en todos los rincones del planeta. Desde aventuras épicas
+                                hasta escapadas de lujo, te garantizamos experiencias que te dejarán sin aliento. Confía
+                                en nosotros para planificar tu próximo viaje y haz que tus sueños se hagan realidad. Te
+                                llevamos a los lugares más hermosos de Chile para que tengas recuerdos para toda la
+                                vida.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-body">
+                            <p id="pmontana" class="card-text card-text_size">Descubre un mundo de posibilidades con
+                                nuestra empresa de viajes líder en la industria. Desde excursiones exóticas hasta
+                                escapadas urbanas, nos especializamos en crear experiencias únicas y memorables para
+                                nuestros clientes. Con un equipo dedicado de expertos en destinos de todo el mundo, te
+                                garantizamos que cada viaje sea una aventura inolvidable. Confía en nosotros para hacer
+                                realidad tus sueños de viaje y descubre el placer de explorar nuevos horizontes con
+                                nosotros.
+                            </p>
+                            <h5 id="montana" class="titulo bg-celeste centrado "><i class="fas fa-mountain"></i></h5>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-body card-text_size">
+                            <h5 id="camino" class="titulo bg-celeste centrado"><i class="fas fa-route"></i></h5>
+                            <p id="pcamino" class="card-text">Nuestra empresa destaca por una serie de beneficios
+                                excepcionales para nuestros clientes. Desde la atención personalizada hasta la
+                                experiencia incomparable de nuestro equipo, cada aspecto de tu viaje está cuidadosamente
+                                planificado para garantizar una experiencia sin preocupaciones y llena de satisfacción.
+                                Además, trabajamos con una red global de proveedores confiables para ofrecerte los
+                                mejores servicios y comodidades en cada destino que visites. Con nosotros, cada viaje es
+                                una oportunidad para explorar, aprender y disfrutar al máximo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <article>
+        <section>
+            <div id="seccion-destacados" class="container cards-destacadas">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">Destacados</h2>
+                        <hr>
+                    </div>
+                    <div class="d-flex gap-2" id="cardsContainer">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+
+    <article>
+        <!-- Contacto/form-->
+        <section class="contacto pb-5" id="seccion-contacto">
+            <div class="container">
+                <h2 class="text-center pt-5 pb-3">CONTACTO</h2>
+                <hr class="mb-5" />
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa tu nombre aquí" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingresa el asunto aquí" />
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                        placeholder="Ingresa tu mensaje aquí" rows="8"></textarea>
+                </div>
+                <button type="button" class="boton btn" id="btnEnviar">Enviar</button>
+            </div>
+        </section>
+    </article>
+
+    <footer class="bg-celeste d-flex justify-content-center">
+        <div class="container">
+            <div class="row">
+                <p class="col-12 col-md-6 brand-text-footer text-center">Viajes Chile</p>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="footer-icon">
+                        <a href="https://github.com"><i class="fab fa-github-square fa-3x text-white"></i></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x text-white"></i></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x text-white"></i></a>
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
